@@ -19,14 +19,14 @@ All via a handy little **batch menu** (`convoy.bat`)!
 Convoy expects a simple folder layout:
 
 convoy/
-├── convoy.bat # The main menu script (must be executed as admin)
-├── bin/
-│ ├── php83/ # PHP 8.3 binaries here (or any versions you want)
-├── projects/
-| ├── project-name
-│ └── my-second-project
-├── scripts/
-| ├── all scripts needed for Convoy to work
+--- convoy.bat # The main menu script (must be executed as admin)
+--- bin/
+----- php83/ # PHP 8.3 binaries here (or any version you want)
+--- projects/
+------ project-name
+------ my-second-project
+--- scripts/
+------ all scripts needed for Convoy to work
 
 ## 🛠 Requirements
 
@@ -43,6 +43,8 @@ convoy/
 2. Put your PHP versions inside the `/bin` folder, named like `php84`, `php83`, etc.
 3. Place your projects inside the `/projects` folder.
 4. Run `convoy.bat` — that’s it!
+
+---
 
 ## 📦 Example Workflow
 
