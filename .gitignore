@@ -1,1 +1,5 @@
 /projects/*
+/bin/php*/
+/bin/shims/php-version.txt
+/bin/nginx/logs/*.log
+/bin/nginx/logs/nginx.pid
