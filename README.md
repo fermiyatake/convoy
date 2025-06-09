@@ -18,16 +18,19 @@ All via a handy little **batch menu** (`convoy.bat`)!
 
 Convoy expects a simple folder layout:
 
+```plaintext
 convoy/
 ├── convoy.bat         # The main menu script (must be executed as admin)
 ├── bin/
-│   └── php83/         # PHP 8.3 binaries here (or any version you want, like php82, php81, etc.)
+│   └── php83/         # PHP 8.3 binaries here (or any version you want)
 ├── projects/
 │   ├── project-name/
 │   └── my-second-project/
 └── scripts/           
     └── ...            # All scripts needed for Convoy to work
+```
 
+---
 
 ## 🛠 Requirements
 
