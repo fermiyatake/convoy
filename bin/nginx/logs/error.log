@@ -1,0 +1,86 @@
+2025/06/01 23:46:19 [notice] 21072#25572: signal process started
+2025/06/01 23:46:34 [notice] 988#25516: signal process started
+2025/06/01 23:46:34 [error] 988#25516: CreateFile() "C:\Users\fernando.miyatake\Desktop\Convoy\bin\nginx/logs/nginx.pid" failed (2: O sistema não pode encontrar o arquivo especificado)
+2025/06/01 23:46:58 [notice] 18368#21336: signal process started
+2025/06/01 23:46:58 [error] 18368#21336: CreateFile() "C:\Users\fernando.miyatake\Desktop\Convoy\bin\nginx/logs/nginx.pid" failed (2: O sistema não pode encontrar o arquivo especificado)
+2025/06/02 00:46:44 [notice] 11108#26504: signal process started
+2025/06/02 00:46:44 [error] 11108#26504: OpenEvent("Global\ngx_quit_18440") failed (5: Acesso negado)
+2025/06/02 09:04:17 [error] 14228#720: *3 connect() failed (10061: Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente) while connecting to upstream, client: 127.0.0.1, server: gestao-2.test, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "gestao-2.test"
+2025/06/02 09:04:20 [error] 14228#720: *3 connect() failed (10061: Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente) while connecting to upstream, client: 127.0.0.1, server: gestao-2.test, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "gestao-2.test"
+2025/06/02 09:08:13 [error] 14228#720: *7 connect() failed (10061: Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente) while connecting to upstream, client: 127.0.0.1, server: gestao-2.test, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "gestao-2.test"
+2025/06/02 10:33:42 [error] 14228#720: *10 FastCGI sent in stderr: "PHP Warning:  require(C:\convoy\projects\gestao-2\public/../vendor/autoload.php): Failed to open stream: No such file or directory in C:\convoy\projects\gestao-2\public\index.php on line 14
+PHP Fatal error:  Uncaught Error: Failed opening required 'C:\convoy\projects\gestao-2\public/../vendor/autoload.php' (include_path='.;C:\php\pear') in C:\convoy\projects\gestao-2\public\index.php:14
+Stack trace:
+#0 {main}
+  thrown in C:\convoy\projects\gestao-2\public\index.php on line 14" while reading response header from upstream, client: 127.0.0.1, server: gestao-2.test, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "gestao-2.test"
+2025/06/02 10:36:37 [error] 21980#24692: *1 FastCGI sent in stderr: "PHP Warning:  require(C:\convoy\projects\gestao-2\public/../vendor/autoload.php): Failed to open stream: No such file or directory in C:\convoy\projects\gestao-2\public\index.php on line 14
+PHP Fatal error:  Uncaught Error: Failed opening required 'C:\convoy\projects\gestao-2\public/../vendor/autoload.php' (include_path='.;C:\php\pear') in C:\convoy\projects\gestao-2\public\index.php:14
+Stack trace:
+#0 {main}
+  thrown in C:\convoy\projects\gestao-2\public\index.php on line 14" while reading response header from upstream, client: 127.0.0.1, server: gestao-2.test, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "gestao-2.test"
+2025/06/02 10:46:45 [error] 21980#24692: *4 FastCGI sent in stderr: "PHP Warning:  require(C:\convoy\projects\gestao-2\public/../vendor/autoload.php): Failed to open stream: No such file or directory in C:\convoy\projects\gestao-2\public\index.php on line 14
+PHP Fatal error:  Uncaught Error: Failed opening required 'C:\convoy\projects\gestao-2\public/../vendor/autoload.php' (include_path='.;C:\php\pear') in C:\convoy\projects\gestao-2\public\index.php:14
+Stack trace:
+#0 {main}
+  thrown in C:\convoy\projects\gestao-2\public\index.php on line 14" while reading response header from upstream, client: 127.0.0.1, server: gestao-2.test, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "gestao-2.test"
+2025/06/02 10:55:03 [error] 21980#24692: *7 FastCGI sent in stderr: "PHP Warning:  require(C:\convoy\projects\gestao-2\public/../vendor/autoload.php): Failed to open stream: No such file or directory in C:\convoy\projects\gestao-2\public\index.php on line 14
+PHP Fatal error:  Uncaught Error: Failed opening required 'C:\convoy\projects\gestao-2\public/../vendor/autoload.php' (include_path='.;C:\php\pear') in C:\convoy\projects\gestao-2\public\index.php:14
+Stack trace:
+#0 {main}
+  thrown in C:\convoy\projects\gestao-2\public\index.php on line 14" while reading response header from upstream, client: 127.0.0.1, server: gestao-2.test, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "gestao-2.test"
+2025/06/03 09:09:50 [error] 21384#21440: *214 connect() failed (10061: Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente) while connecting to upstream, client: 127.0.0.1, server: gestao-2.test, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "gestao-2.test"
+2025/06/03 09:09:52 [error] 21384#21440: *214 connect() failed (10061: Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente) while connecting to upstream, client: 127.0.0.1, server: gestao-2.test, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "gestao-2.test"
+2025/06/03 09:13:07 [error] 21384#21440: *218 connect() failed (10061: Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente) while connecting to upstream, client: 127.0.0.1, server: gestao-2.test, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "gestao-2.test"
+2025/06/05 13:11:15 [error] 25892#29744: *96 connect() failed (10061: Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente) while connecting to upstream, client: 127.0.0.1, server: portal-cliente.test, request: "GET /compras HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "portal-cliente.test"
+2025/06/07 14:29:44 [error] 24596#28736: *17 FastCGI sent in stderr: "PHP Fatal error:  Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at C:\convoy\projects\gestao-2\vendor\laravel\framework\src\Illuminate\Foundation\Http\HtmlDumper.php:113) in C:\convoy\projects\gestao-2\vendor\symfony\http-foundation\Response.php:322
+Stack trace:
+#0 C:\convoy\projects\gestao-2\vendor\laravel\framework\src\Illuminate\Foundation\Bootstrap\HandleExceptions.php(256): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->{closure:Illuminate\Foundation\Bootstrap\HandleExceptions::forwardsTo():255}()
+#2 C:\convoy\projects\gestao-2\vendor\symfony\http-foundation\Response.php(322): header()
+#3 C:\convoy\projects\gestao-2\vendor\symfony\http-foundation\Response.php(401): Symfony\Component\HttpFoundation\Response->sendHeaders()
+#4 C:\convoy\projects\gestao-2\vendor\laravel\framework\src\Illuminate\Foundation\Bootstrap\HandleExceptions.php(219): Symfony\Component\HttpFoundation\Response->send()
+#5 C:\convoy\projects\gestao-2\vendor\laravel\framework\src\Illuminate\Foundation\Bootstrap\HandleExceptions.php(196): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse()
+#6 C:\convoy\projects\gestao-2\vendor\laravel\framework\src\Illuminate\Foundation\Bootstrap\HandleExceptions.php(256): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#7 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->{closure:Illuminate\Foundation\Bootstrap\HandleExceptions::forwardsTo():255}()
+#8 {main}
+  thrown in C:\convoy\projects\gestao-2\vendor\symfony\http-foundation\Response.php on line 322
+PHP Fatal error:  Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at C:\convoy\projects\gestao-2\vendor\laravel\framework\src\Illuminate\Foundation\Http\HtmlDumper.php:113) in C:\convoy\projects\gestao-2\vendor\symfony\http-foundation\Res
+2025/06/07 14:29:54 [error] 24596#28736: *17 FastCGI sent in stderr: "PHP Fatal error:  Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at C:\convoy\projects\gestao-2\vendor\laravel\framework\src\Illuminate\Foundation\Http\HtmlDumper.php:113) in C:\convoy\projects\gestao-2\vendor\symfony\http-foundation\Response.php:322
+Stack trace:
+#0 C:\convoy\projects\gestao-2\vendor\laravel\framework\src\Illuminate\Foundation\Bootstrap\HandleExceptions.php(256): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->{closure:Illuminate\Foundation\Bootstrap\HandleExceptions::forwardsTo():255}()
+#2 C:\convoy\projects\gestao-2\vendor\symfony\http-foundation\Response.php(322): header()
+#3 C:\convoy\projects\gestao-2\vendor\symfony\http-foundation\Response.php(401): Symfony\Component\HttpFoundation\Response->sendHeaders()
+#4 C:\convoy\projects\gestao-2\vendor\laravel\framework\src\Illuminate\Foundation\Bootstrap\HandleExceptions.php(219): Symfony\Component\HttpFoundation\Response->send()
+#5 C:\convoy\projects\gestao-2\vendor\laravel\framework\src\Illuminate\Foundation\Bootstrap\HandleExceptions.php(196): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse()
+#6 C:\convoy\projects\gestao-2\vendor\laravel\framework\src\Illuminate\Foundation\Bootstrap\HandleExceptions.php(256): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#7 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->{closure:Illuminate\Foundation\Bootstrap\HandleExceptions::forwardsTo():255}()
+#8 {main}
+  thrown in C:\convoy\projects\gestao-2\vendor\symfony\http-foundation\Response.php on line 322
+PHP Fatal error:  Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at C:\convoy\projects\gestao-2\vendor\laravel\framework\src\Illuminate\Foundation\Http\HtmlDumper.php:113) in C:\convoy\projects\gestao-2\vendor\symfony\http-foundation\Res
+2025/06/07 14:33:43 [error] 24596#28736: *24 FastCGI sent in stderr: "PHP Fatal error:  Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at C:\convoy\projects\gestao-2\vendor\laravel\framework\src\Illuminate\Foundation\Http\HtmlDumper.php:113) in C:\convoy\projects\gestao-2\vendor\symfony\http-foundation\Response.php:322
+Stack trace:
+#0 C:\convoy\projects\gestao-2\vendor\laravel\framework\src\Illuminate\Foundation\Bootstrap\HandleExceptions.php(256): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->{closure:Illuminate\Foundation\Bootstrap\HandleExceptions::forwardsTo():255}()
+#2 C:\convoy\projects\gestao-2\vendor\symfony\http-foundation\Response.php(322): header()
+#3 C:\convoy\projects\gestao-2\vendor\symfony\http-foundation\Response.php(401): Symfony\Component\HttpFoundation\Response->sendHeaders()
+#4 C:\convoy\projects\gestao-2\vendor\laravel\framework\src\Illuminate\Foundation\Bootstrap\HandleExceptions.php(219): Symfony\Component\HttpFoundation\Response->send()
+#5 C:\convoy\projects\gestao-2\vendor\laravel\framework\src\Illuminate\Foundation\Bootstrap\HandleExceptions.php(196): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse()
+#6 C:\convoy\projects\gestao-2\vendor\laravel\framework\src\Illuminate\Foundation\Bootstrap\HandleExceptions.php(256): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#7 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->{closure:Illuminate\Foundation\Bootstrap\HandleExceptions::forwardsTo():255}()
+#8 {main}
+  thrown in C:\convoy\projects\gestao-2\vendor\symfony\http-foundation\Response.php on line 322
+PHP Fatal error:  Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at C:\convoy\projects\gestao-2\vendor\laravel\framework\src\Illuminate\Foundation\Http\HtmlDumper.php:113) in C:\convoy\projects\gestao-2\vendor\symfony\http-foundation\Res
+2025/06/07 14:34:06 [error] 24596#28736: *24 FastCGI sent in stderr: "PHP Fatal error:  Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at C:\convoy\projects\gestao-2\vendor\laravel\framework\src\Illuminate\Foundation\Http\HtmlDumper.php:113) in C:\convoy\projects\gestao-2\vendor\symfony\http-foundation\Response.php:322
+Stack trace:
+#0 C:\convoy\projects\gestao-2\vendor\laravel\framework\src\Illuminate\Foundation\Bootstrap\HandleExceptions.php(256): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->{closure:Illuminate\Foundation\Bootstrap\HandleExceptions::forwardsTo():255}()
+#2 C:\convoy\projects\gestao-2\vendor\symfony\http-foundation\Response.php(322): header()
+#3 C:\convoy\projects\gestao-2\vendor\symfony\http-foundation\Response.php(401): Symfony\Component\HttpFoundation\Response->sendHeaders()
+#4 C:\convoy\projects\gestao-2\vendor\laravel\framework\src\Illuminate\Foundation\Bootstrap\HandleExceptions.php(219): Symfony\Component\HttpFoundation\Response->send()
+#5 C:\convoy\projects\gestao-2\vendor\laravel\framework\src\Illuminate\Foundation\Bootstrap\HandleExceptions.php(196): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse()
+#6 C:\convoy\projects\gestao-2\vendor\laravel\framework\src\Illuminate\Foundation\Bootstrap\HandleExceptions.php(256): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#7 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->{closure:Illuminate\Foundation\Bootstrap\HandleExceptions::forwardsTo():255}()
+#8 {main}
+  thrown in C:\convoy\projects\gestao-2\vendor\symfony\http-foundation\Response.php on line 322
+PHP Fatal error:  Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at C:\convoy\projects\gestao-2\vendor\laravel\framework\src\Illuminate\Foundation\Http\HtmlDumper.php:113) in C:\convoy\projects\gestao-2\vendor\symfony\http-foundation\Res
